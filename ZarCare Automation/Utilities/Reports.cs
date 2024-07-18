@@ -12,7 +12,7 @@
 
         public static ExtentReports StartExtentReport(string classname)
         {
-            reportFolderName = "C:\\Users\\pssha\\source\\repos\\ZarCare Automation\\Repo_ZarCare\\ZarCare_Automation\\Reports\\" + classname + " " + DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss").Trim();
+            reportFolderName = Properties.report + classname + " " + DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss").Trim();
             Directory.CreateDirectory(reportFolderName);
 
             reportFilePath = reportFolderName + @"\\ExtentReport.html";
