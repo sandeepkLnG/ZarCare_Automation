@@ -1,0 +1,9 @@
+﻿{
+  "dev": {
+    "Platform": "https://zarcaredev.azurewebsites.net/"
+  },
+
+  "preprod": {
+    "Platform": "https://zarcare-preprod.azurewebsites.net/"
+  }
+}
