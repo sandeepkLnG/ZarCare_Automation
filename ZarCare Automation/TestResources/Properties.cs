@@ -5,6 +5,6 @@
         public static string environment = "Preprod";
         public static string browser = "Chrome";
         public static string QA = "Piyush Sharma";
-        public static string report = "C:\\Users\\pssha\\source\\repos\\ZarCare Automation\\Repo_ZarCare\\ZarCare_Automation\\Reports\\";
+        public static string report = "C:\\ZarCare_Automation_Reports\\";
     }
 }
