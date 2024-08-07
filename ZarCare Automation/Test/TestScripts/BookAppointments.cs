@@ -1,7 +1,5 @@
 namespace TestScripts
 {
-
-
     public class BookAppointments : Base
     {
         public string classname = "BookAppointments";
