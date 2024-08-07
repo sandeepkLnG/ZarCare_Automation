@@ -3,7 +3,6 @@ namespace TestScripts
     public class BookAppointments : Base
     {
         public string classname = "BookAppointments";
-
         [Test]
         public void Book_Appointments()
         {
