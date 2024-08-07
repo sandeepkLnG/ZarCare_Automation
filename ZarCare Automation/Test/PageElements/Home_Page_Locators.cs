@@ -7,5 +7,8 @@
 
         public By By_ConsultNow_Button = By.XPath("//article[@class='hero-banner-txt']/a");
         public IWebElement Web_ConsultNow_Button => driver.FindElement(By_ConsultNow_Button);
+
+        public By By_AboutUs_Link = By.LinkText("About Us");
+        public IWebElement Web_AboutUs_Link => driver.FindElement(By_AboutUs_Link);
     }
 }
