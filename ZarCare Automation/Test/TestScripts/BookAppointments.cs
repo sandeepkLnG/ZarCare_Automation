@@ -7,6 +7,8 @@ namespace TestScripts
         [Test]
         public void Book_Appointments()
         {
+
+        //new changes
             var json = Json_Reader.GetDataFromJson(classname);
             string doctorName = json["Doctor_Name"].ToString();
             string appointmentDate = json["Appointment_Date"].ToString();
